@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Yijia Li | Personal Homepage</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f9fb;
+      color: #333;
+    }
+
+    header {
+      background-color: #7ab8f5;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    nav {
+      margin-top: 1rem;
+    }
+
+    nav a {
+      margin: 0 15px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      gap: 2rem;
+      padding: 3rem;
+      max-width: 1000px;
+      margin: auto;
+      background-color: white;
+      margin-top: -2rem;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+      border-radius: 10px;
+    }
+
+    .profile-pic {
+      width: 100%;
+      max-width: 250px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      border-bottom: 2px solid #eee;
+      padding-bottom: 5px;
+      margin-top: 1.5rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      color: #666;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        grid-template-columns: 1fr;
+        padding: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Yijia Li</h1>
+    <nav>
+      <a href="#view">View</a>
+      <a href="#projects">Projects</a>
+      <a href="#publications">Selected Publications</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div>
+      <img src="profile.jpg" alt="Profile Photo" class="profile-pic">
+    </div>
+    <div>
+      <section id="view">
+        <h2>View</h2>
+        <p>
+          Ms. Yijia Li is currently a graduate student in the School of Information Science and Engineering at Shandong Normal University.
+          Her research focuses on EEG-based epilepsy detection, aiming to address the challenge of label scarcity in EEG data through
+          self-supervised contrastive learning methods, ultimately achieving high accuracy in seizure detection.
+        </p>
+      </section>
+
+      <section id="projects">
+        <h2>Projects</h2>
+        <p>None</p>
+      </section>
+
+      <section id="publications">
+        <h2>Selected Publications</h2>
+        <p>None</p>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:liyijia918@gmail.com">liyijia918@gmail.com</a></p>
+        <p>Office: Room 419, Yijia Li, Changqing Campus</p>
+      </section>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Yijia Li. All rights reserved.
+  </footer>
+
+</body>
+</html>
